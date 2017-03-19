@@ -27,11 +27,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizCardBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuizCardBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QuizCardBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+            <state relative-caret-position="261">
+              <caret line="129" column="5" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="129" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuizCardPlayer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QuizCardPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,6 +85,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/QuizCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/QuizCardBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QuizCardPlayer.java" />
       </list>
     </option>
   </component>
@@ -175,9 +188,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuizCardBuilder">
+  <component name="RunManager" selected="Application.QuizCardPlayer">
     <configuration default="false" name="QuizCardBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuizCardBuilder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="quiz" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="QuizCardPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuizCardPlayer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -332,12 +359,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.QuizCardBuilder" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QuizCardPlayer" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.QuizCardBuilder" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.QuizCardPlayer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.QuizCardBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -413,8 +442,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QuizCardBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="85" column="24" lean-forward="false" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+        <state relative-caret-position="261">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="97" selection-start-column="3" selection-end-line="129" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QuizCardPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
