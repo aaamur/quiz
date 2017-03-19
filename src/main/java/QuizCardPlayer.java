@@ -78,11 +78,13 @@ public class QuizCardPlayer {
     }
 
     private void showNextCard() {
-        currentCard = cardList.get(currentCardIndex);
-        currentCardIndex++;
-        display.setText(currentCard.getQuestion());
-        nextButton.setText("Show answer");
-        isShowAnswer = true;
+        if (currentCardIndex < cardList.size()){
+            currentCard = cardList.get(currentCardIndex);
+            currentCardIndex++;
+            display.setText(currentCard.getQuestion());
+            nextButton.setText("Show answer");
+            isShowAnswer = true;
+        }
 
     }
 
@@ -97,6 +99,8 @@ public class QuizCardPlayer {
 
     private void loadFile(File file) {
         cardList = new ArrayList<QuizCard>();
+        currentCardIndex = 0;
+        nextButton.setEnabled(true);
         try {
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String line;
